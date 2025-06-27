@@ -51,4 +51,4 @@ app.delete("/ds", (req, res) => {
   });
 });
 
-#app.listen(9000, () => {console.log("ready to server @9000"); });
+app.listen(9000, () => {console.log("ready to server @9000"); });
